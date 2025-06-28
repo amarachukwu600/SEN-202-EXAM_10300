@@ -41,3 +41,15 @@ class Intern(StaffBase):
     
     def get_role(self):
         return "intern"
+    
+class Address(models.Model):
+    street1_address = models.CharField(max_length=255)
+    street2_address = models.CharField(max_length=255)
+    house_number = models.CharField(max_length=255)
+    city = models.CharField(max_length=100)
+    state = models.CharField(max_length=100)
+    country = models.CharField(max_length=100)
+    postal_code = models.CharField(max_length=10)
+    
+    def str(self):
+        return f"{self.street1_address}, {self.street2_address}, {self.house_number}, {self.city}, {self.state}, {self.country}, {self.postal_code}, " 

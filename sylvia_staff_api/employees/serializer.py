@@ -17,4 +17,9 @@ class InternSerializers(serializers.ModelSerializer):
 class SafeBaseSerializers(serializers.ModelSerializer):
     class Meta:
         model = StaffBase
-        fields ='__all__'                  
+        fields ='__all__'  
+
+class AddressSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Address
+        fields = '__all__'                        
