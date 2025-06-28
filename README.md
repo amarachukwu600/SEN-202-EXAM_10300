@@ -13,8 +13,10 @@ SEN 202 Examination_10300
 |**Ofoekii Amarachukwu Sylvia**	|[amarachukwu600](https://github.com/amarachukwu600/) |VUG/SEN/23/10300 |User Authentication & JWT|
 
 # superuser login deatils 
+Username: sylvia
 email- amarachukwuofoekii@gmail.com
 password - root12345
+
 
 ### questions answered
 question_1

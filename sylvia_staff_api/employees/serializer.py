@@ -1,25 +1,17 @@
 from rest_framework import serializers
-from .models import StaffBase, Manager, Intern, Address
+from .models import Manager, Intern, Address
 
-
-class ManagerSerializers(serializers.ModelSerializer):
+class ManagerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Manager
-        fields ='__all__' 
-        read_only_fields = ('id', 'hire_date', 'created_at', 'updated_at', 'has_company_card')
+        exclude = ['has_company_card'] 
 
-class InternSerializers(serializers.ModelSerializer):
+class InternSerializer(serializers.ModelSerializer):
     class Meta:
         model = Intern
-        fields ='__all__'  
-        read_only_fields = ('mentor')
-
-class SafeBaseSerializers(serializers.ModelSerializer):
-    class Meta:
-        model = StaffBase
-        fields ='__all__'  
+        fields = '__all__'
 
 class AddressSerializer(serializers.ModelSerializer):
     class Meta:
         model = Address
-        fields = '__all__'                        
+        fields = '__all__'
