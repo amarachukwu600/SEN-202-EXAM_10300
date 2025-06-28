@@ -17,6 +17,10 @@ Username: sylvia
 email- amarachukwuofoekii@gmail.com
 password - root12345
 
+![alt text](<Log in _ Django site admin - Google Chrome 6_28_2025 10_49_31 AM.png>)
+![alt text](<Log in _ Django site admin - Google Chrome 6_28_2025 11_09_17 AM.png>)
+![alt text](<Log in _ Django site admin - Google Chrome 6_28_2025 11_26_09 AM.png>)
+
 
 ### questions answered
 question_1
