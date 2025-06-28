@@ -43,6 +43,7 @@ class Intern(StaffBase):
         return "intern"
     
 class Address(models.Model):
+    emplooye= models.ForeignKey(StaffBase, on_delete=models.CASCADE, related_name= Address)
     street1_address = models.CharField(max_length=255)
     street2_address = models.CharField(max_length=255)
     house_number = models.CharField(max_length=255)

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import StaffBase, Manager, Intern
+from .models import StaffBase, Manager, Intern, Address
 
 
 class ManagerSerializers(serializers.ModelSerializer):
