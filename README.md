@@ -11,3 +11,8 @@ SEN 202 Examination_10300
 |**Name**       | **Github username that links to account**         | **Matric Number** |	**Contribution** |
 |---------------|---------------------------------------------------|-------------------|------------------|
 |**Ofoekii Amarachukwu Sylvia**	|[amarachukwu600](https://github.com/amarachukwu600/) |VUG/SEN/23/10300 |User Authentication & JWT|
+
+### questions answered
+question_1
+question_2
+question_3
